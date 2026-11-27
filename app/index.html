@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black Friday Scout — Real Black Friday &amp; Cyber Monday Deals, Checked Today</title>
+<meta name="description" content="A deal finder for Black Friday and Cyber Monday 2026: real deals at Amazon, Best Buy, Walmart, Target and Costco, each with its sale price, usual price, discount and check time.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="#/">Black Friday <span>Scout</span></a>
+    <p class="tagline">Real deals, checked today &mdash; no inflated &ldquo;was&rdquo; prices, no guesswork.</p>
+  </div>
+</header>
+<main class="wrap">
+  <p id="stats" class="stats" aria-live="polite"></p>
+  <section id="controls" class="controls" aria-label="Search and filter deals">
+    <label class="search-label">Search
+      <input id="search" type="search" placeholder="Try &ldquo;airpods&rdquo;, &ldquo;OLED&rdquo;, &ldquo;dyson&rdquo;&hellip;" autocomplete="off">
+    </label>
+    <label>Category
+      <select id="category"></select>
+    </label>
+    <label>Store
+      <select id="store"></select>
+    </label>
+    <label>Min. discount
+      <select id="discount">
+        <option value="0">Any discount</option>
+        <option value="20">20% off or more</option>
+        <option value="40">40% off or more</option>
+        <option value="50">50% off or more</option>
+        <option value="60">60% off or more</option>
+      </select>
+    </label>
+    <label>Verdict
+      <select id="verdict"></select>
+    </label>
+    <label>Sort by
+      <select id="sort">
+        <option value="discount">Biggest discount</option>
+        <option value="savings">Most dollars saved</option>
+        <option value="priceLow">Lowest price</option>
+        <option value="priceHigh">Highest price</option>
+        <option value="name">Name A&ndash;Z</option>
+      </select>
+    </label>
+  </section>
+  <div id="app"></div>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <p><strong>How this finder works.</strong> Every deal was found and checked by reading the price at the store or in a deals roundup that names the store, and re-checked on 27 Nov 2026. Each deal shows where its price was read and an honest verdict &mdash; new low, strong deal, modest cut or routine sale &mdash; so you can tell a true bargain from a routine markdown.</p>
+    <p>Black Friday is 27 Nov 2026; Cyber Monday is 30 Nov 2026. Prices can move or sell out &mdash; always check the store page before buying. Black Friday Scout is an independent finder and is not affiliated with any store named here.</p>
+  </div>
+</footer>
+</body>
+</html>
